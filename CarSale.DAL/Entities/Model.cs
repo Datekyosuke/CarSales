@@ -9,6 +9,6 @@ namespace CarSale.DAL.Entities
     public class Model : NamedEntity
     {
         public virtual Brand Brand { get; set; }
-        public virtual ICollection<Car> Cars { get; set; }
+        public virtual ICollection<Configuration> Configurations { get; set; }
     }
 }
