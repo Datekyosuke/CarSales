@@ -15,6 +15,7 @@ namespace CarSale.DAL.Context
         }
 
         public DbSet<Car> Cars { get; set; }
+        public DbSet<Color> Colors { get; set; }
         public DbSet<Sale> Sales { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Model> Models { get; set; }

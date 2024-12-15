@@ -8,9 +8,7 @@ namespace CarSale.DAL.Entities
     /// </summary>
     public class Sale : Entity
     {
-        public virtual Car Cars {  get; set; }
+        public virtual Car Car {  get; set; }
         public DateTime SaleDate { get; set; }
-        public int Quantity { get; set; }
-        public decimal TotalPrice { get; set; }
     }
 }

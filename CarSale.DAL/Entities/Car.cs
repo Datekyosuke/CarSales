@@ -8,7 +8,7 @@ namespace CarSale.DAL.Entities
     /// </summary>
     public class Car : Entity
     {
-        public string Color { get; set; }
+        public virtual Color Color{ get; set; }
         public virtual Configuration Configuration { get; set; }
         public virtual ICollection<Sale> Sales { get; set; }
     }
